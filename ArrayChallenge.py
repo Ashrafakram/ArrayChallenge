@@ -15,3 +15,4 @@ root_candidates = all_nodes - parents
 if len(root_candidates) != 1:
     return "false"
 return "true"
+print(ArrayChallenge(input()))
